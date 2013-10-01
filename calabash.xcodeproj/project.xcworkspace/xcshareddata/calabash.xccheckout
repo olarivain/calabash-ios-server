@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DC688D7E-6E8C-421E-8751-77948E822FA7</string>
+	<string>E771B78D-0DB3-4643-944F-FFD11AD62866</string>
 	<key>IDESourceControlProjectName</key>
 	<string>calabash</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -46,17 +48,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>213E8007-977A-4BF7-AD1A-64D54F2C93DF</string>
+			<string>D64746FC-898F-44F0-90B1-691A34CDFE6F</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Symbiote</string>
+			<string>calabash-js</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D64746FC-898F-44F0-90B1-691A34CDFE6F</string>
+			<string>213E8007-977A-4BF7-AD1A-64D54F2C93DF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>calabash-js</string>
+			<string>Symbiote</string>
 		</dict>
 	</array>
 </dict>
