@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/olarivain/calabash-ios-server.git', :tag => "v#{version}" }
   
    # LPScreencastRoute and ScreenCaptureView are not built in the calabash .xocdeproj
-  s.source_files   = ['calabash/Classes/**/*.*']
+  s.source_files   = ['calabash/**/*.{h,m,c,mm,cpp}', 'calabash-js/CalabashJS/CalabashJSLib/**/*.{h,m,c,mm,cpp}', 'calabash-js/CalabashJS/External/**/*.{h,m,c,mm,cpp}']
                        
-  s.header_mappings_dir = '.'
+  # s.header_mappings_dir = './calabash/Classes/**'
   s.frameworks     = 'CFNetwork'
-  s.xcconfig       = { 'OTHER_LINKER_FLAGS' => '-force_load "$(PODS_ROOT)/Calabash/calabash.framework/calabash" -lstdc++' }
+  s.xcconfig       = { 'OTHER_LINKER_FLAGS' => '-force_load "$(PODS_ROOT)/Calabash/calabash.framework/calabash" -lstdc++', 'OTHER_CFLAGS' => '${inherited} -DDEBUG=0' }
   s.requires_arc = false
 
 end
