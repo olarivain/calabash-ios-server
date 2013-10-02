@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.summary  = 'An iOS automation framework.'
   s.homepage = 'https://github.com/calabash/calabash-ios-server/'
   s.authors  = { 'Karl Krukow' => 'karl.krukow@gmail.com' }
-  s.source   = { :git => 'https://github.com/olarivain/calabash-ios-server.git', :tag => "v#{version}" }
+  s.source   = { :git => 'https://github.com/olarivain/calabash-ios-server.git', :branch => "calabash-ios-server" }
   
    # LPScreencastRoute and ScreenCaptureView are not built in the calabash .xocdeproj
   s.source_files   = ['calabash/**/*.{h,m,c,mm,cpp}', 'calabash-js/CalabashJS/CalabashJSLib/**/*.{h,m,c,mm,cpp}', 'calabash-js/CalabashJS/External/**/*.{h,m,c,mm,cpp}']
