@@ -1,5 +1,5 @@
 
-version = '0.9.36'
+version = '0.9.81'
 
 Pod::Spec.new do |s|
  s.name     = 'Calabash-server-OT'
@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.frameworks     = 'CFNetwork'
   s.xcconfig       = { 'OTHER_LINKER_FLAGS' => '-force_load "$(PODS_ROOT)/Calabash/calabash.framework/calabash" -lstdc++', 'OTHER_CFLAGS' => '${inherited} -DDEBUG=0' }
   s.requires_arc = false
+  s.prepare_command = '#!/bin/bash git submodule update --init'
 
 end
